@@ -1,0 +1,350 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+html {
+  font-size: 10px;
+  //media query
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+body {
+  transition: 0.3s;
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+
+h1,
+.h1 {
+  font-size: calc(1.359375rem + 1.3125vw);
+}
+
+@font-face {
+  font-family: "Cerebri Sans Pro";
+  src: url("../assets/fonts/CerebriSansPro-Regular.woff2") format("woff2"),
+    url("../assets/fonts/CerebriSansPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cerebri Sans Pro";
+  src: url("../assets/fonts/CerebriSansPro-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/CerebriSansPro-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cerebri Sans Pro";
+  src: url("../assets/fonts/CerebriSansPro-Light.woff2") format("woff2"),
+    url("../assets/fonts/CerebriSansPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cerebri Sans Pro";
+  src: url("../assets/fonts/CerebriSansPro-Bold.woff2") format("woff2"),
+    url("../assets/fonts/CerebriSansPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.buttonDemo {
+  background-color: rgb(43, 43, 184);
+}
+:root {
+  --bs-sidebar-sub-bg: #ffffff;
+  --bs-blue: #4eac6d;
+  --bs-red: #ef476f;
+  --bs-orange: #fc814a;
+  --bs-yellow: #ffd166;
+  --bs-green: #06d6a0;
+  --bs-teal: #050505;
+  --bs-cyan: #50a5f1;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #797c8c;
+  --bs-gray-dark: #333333;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #f9f9f9;
+  --bs-gray-300: #f6f6f9;
+  --bs-gray-400: #e6ebf5;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #797c8c;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #333333;
+  --bs-gray-900: #212529;
+  --bs-primary: #4eac6d;
+  --bs-secondary: #797c8c;
+  --bs-success: #06d6a0;
+  --bs-info: #50a5f1;
+  --bs-warning: #ffd166;
+  --bs-danger: #ef476f;
+  --bs-pink: #e83e8c;
+  --bs-indigo: #560bad;
+  --bs-purple: #6153cc;
+  --bs-light: #f6f6f9;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 78, 172, 109;
+  --bs-secondary-rgb: 121, 124, 140;
+  --bs-success-rgb: 6, 214, 160;
+  --bs-info-rgb: 80, 165, 241;
+  --bs-warning-rgb: 255, 209, 102;
+  --bs-danger-rgb: 239, 71, 111;
+  --bs-pink-rgb: 232, 62, 140;
+  --bs-indigo-rgb: 86, 11, 173;
+  --bs-purple-rgb: 97, 83, 204;
+  --bs-light-rgb: 246, 246, 249;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-btn-hover-bg: #d1d1d4;
+  --bs-primary-text-emphasis: #1f452c;
+  --bs-secondary-text-emphasis: #303238;
+  --bs-success-text-emphasis: #025640;
+  --bs-info-text-emphasis: #204260;
+  --bs-warning-text-emphasis: #665429;
+  --bs-danger-text-emphasis: #601c2c;
+  --bs-light-text-emphasis: #495057;
+  --bs-dark-text-emphasis: #495057;
+  --bs-primary-bg-subtle: #dceee2;
+  --bs-secondary-bg-subtle: #e4e5e8;
+  --bs-success-bg-subtle: #cdf7ec;
+  --bs-info-bg-subtle: #dcedfc;
+  --bs-warning-bg-subtle: #fff6e0;
+  --bs-danger-bg-subtle: #fcdae2;
+  --bs-light-bg-subtle: #fcfcfd;
+  --bs-dark-bg-subtle: #e6ebf5;
+  --bs-primary-border-subtle: #b8dec5;
+  --bs-secondary-border-subtle: #c9cbd1;
+  --bs-success-border-subtle: #9befd9;
+  --bs-info-border-subtle: #b9dbf9;
+  --bs-warning-border-subtle: #ffedc2;
+  --bs-danger-border-subtle: #f9b5c5;
+  --bs-light-border-subtle: #f9f9f9;
+  --bs-dark-border-subtle: #adb5bd;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-font-sans-serif: "Cerebri Sans,sans-serif";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  --bs-body-font-family: "Cerebri Sans Pro";
+  --bs-body-font-size: 0.9375rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #495057;
+  --bs-body-color-rgb: 73, 80, 87;
+  --bs-body-bg: #f2f2f2;
+  --bs-body-bg-rgb: 242, 242, 242;
+  --bs-emphasis-color: #000;
+  --bs-emphasis-color-rgb: 0, 0, 0;
+  --bs-secondary-color: rgba(73, 80, 87, 0.75);
+  --bs-secondary-color-rgb: 73, 80, 87;
+  --bs-secondary-bg: #fff;
+  --bs-secondary-bg-rgb: 255, 255, 255;
+  --bs-tertiary-color: rgba(73, 80, 87, 0.5);
+  --bs-tertiary-color-rgb: 73, 80, 87;
+  --bs-tertiary-bg: #f8f9fa;
+  --bs-tertiary-bg-rgb: 248, 249, 250;
+  --bs-heading-color: #495057;
+  --bs-link-color: #4eac6d;
+  --bs-link-color-rgb: 78, 172, 109;
+  --bs-link-decoration: none;
+  --bs-link-hover-color: #42925d;
+  --bs-link-hover-color-rgb: 66, 146, 93;
+  --bs-link-hover-decoration: underline;
+  --bs-code-color: #e83e8c;
+  --bs-highlight-color: #212529;
+  --bs-highlight-bg: #fcf8e3;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #eaeaf1;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.25rem;
+  --bs-border-radius-sm: 0.2rem;
+  --bs-border-radius-lg: 0.4rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-xxl: 2rem;
+  --bs-border-radius-2xl: var(--bs-border-radius-xxl);
+  --bs-border-radius-pill: 50rem;
+  --bs-box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
+  --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+  --bs-focus-ring-width: 0;
+  --bs-focus-ring-opacity: 0.25;
+  --bs-focus-ring-color: rgba(78, 172, 109, 0.25);
+  --bs-form-valid-color: #06d6a0;
+  --bs-form-valid-border-color: #06d6a0;
+  --bs-form-invalid-color: #ef476f;
+  --bs-form-invalid-border-color: #ef476f;
+  --bs-sidebar-bg: #2e2e2e;
+  --bs-sidebar-menu-item-color: #878a92;
+  --bs-tooltip-bg: #000;
+  --bs-tooltip-color: #fff;
+  --bs-icon-search: #000;
+  --bs-inbox-text: #495057;
+  --bs-chat-primary-bg: #fff;
+  --bs-footer-bg: rgba(255, 255, 255, 0.05);
+  --bs-bg-chat: #e3eae5;
+  --bs-chat-text-color: #495057;
+  --bs-modal-bg: #fff;
+}
+
+.dark-mode {
+  --bs-modal-bg: #262626;
+  --bs-chat-text-color: #ffffffcc;
+  --bs-bg-chat: #313a34;
+  --bs-footer-bg: rgba(46, 46, 46, 0.5);
+  --bs-chat-primary-bg: #383838;
+  --bs-inbox-text: #adb5bd;
+  --bs-icon-search: #fff;
+  --bs-sidebar-sub-bg: #262626;
+  --bs-tooltip-bg: #fff;
+  --bs-tooltip-color: #495057;
+  --bs-body-color: #adb5bd;
+  --bs-body-color-rgb: 173, 181, 189;
+  --bs-body-bg: #2e2e2e;
+  --bs-body-bg-rgb: 46, 46, 46;
+  --bs-emphasis-color: #fff;
+  --bs-emphasis-color-rgb: 255, 255, 255;
+  --bs-secondary-color: rgba(173, 181, 189, 0.75);
+  --bs-secondary-color-rgb: 173, 181, 189;
+  --bs-light-rgb: 46, 46, 46;
+  --bs-secondary-bg: #333333;
+  --bs-secondary-bg-rgb: 51, 51, 51;
+  --bs-tertiary-color: rgba(173, 181, 189, 0.5);
+  --bs-tertiary-color-rgb: 173, 181, 189;
+  --bs-tertiary-bg: #383838;
+  --bs-tertiary-bg-rgb: 56, 56, 56;
+  --bs-primary-text-emphasis: #95cda7;
+  --bs-secondary-text-emphasis: #afb0ba;
+  --bs-success-text-emphasis: #6ae6c6;
+  --bs-info-text-emphasis: #96c9f7;
+  --bs-warning-text-emphasis: #ffe3a3;
+  --bs-danger-text-emphasis: #f591a9;
+  --bs-light-text-emphasis: #f8f9fa;
+  --bs-dark-text-emphasis: #495057;
+  --bs-primary-bg-subtle: #1f452c;
+  --bs-secondary-bg-subtle: #303238;
+  --bs-success-bg-subtle: #025640;
+  --bs-info-bg-subtle: #204260;
+  --bs-warning-bg-subtle: rgb(255, 246, 224);
+  --bs-danger-bg-subtle: #601c2c;
+  --bs-light-bg-subtle: #333333;
+  --bs-dark-bg-subtle: #3d3e46;
+  --bs-primary-border-subtle: #2f6741;
+  --bs-secondary-border-subtle: #494a54;
+  --bs-success-border-subtle: #048060;
+  --bs-info-border-subtle: #306391;
+  --bs-warning-border-subtle: #997d3d;
+  --bs-danger-border-subtle: #8f2b43;
+  --bs-light-border-subtle: #495057;
+  --bs-dark-border-subtle: #333333;
+  --bs-heading-color: #adb5bd;
+  --bs-link-color: #4eac6d;
+  --bs-link-hover-color: #69b883;
+  --bs-link-color-rgb: 78, 172, 109;
+  --bs-link-hover-color-rgb: 105, 184, 131;
+  --bs-code-color: #f18bba;
+  --bs-highlight-color: #adb5bd;
+  --bs-highlight-bg: #665429;
+  --bs-border-color: #333333;
+  --bs-border-color-translucent: #333333;
+  --bs-form-valid-color: #6ae6c6;
+  --bs-form-valid-border-color: #6ae6c6;
+  --bs-form-invalid-color: #f591a9;
+  --bs-form-invalid-border-color: #f591a9;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+.img-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  &::after {
+    content: "";
+    padding-bottom: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+  }
+  img {
+    object-fit: cover;
+  }
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-DropDownAvt {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  border-radius: 0.5rem;
+}
+.dropdown-top {
+  transform: translateY(-120%);
+  top: 0;
+  left: 0;
+  @media screen and (max-width: 991px) {
+    left: auto;
+    right: 0%;
+  }
+}
+.hidden {
+  display: block;
+}

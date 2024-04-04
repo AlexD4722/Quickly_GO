@@ -1,0 +1,205 @@
+{
+  "Files": [
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\Img\\avatar\\ImgGroupDefault.png",
+      "PackagePath": "staticwebassets\\Img\\avatar\\ImgGroupDefault.png"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\Img\\avatar\\User-Default.jpg",
+      "PackagePath": "staticwebassets\\Img\\avatar\\User-Default.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\Img\\avatar\\default.jpg",
+      "PackagePath": "staticwebassets\\Img\\avatar\\default.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\Img\\avatar_background\\default.jpg",
+      "PackagePath": "staticwebassets\\Img\\avatar_background\\default.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\bvwc54v5.jpeg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\bvwc54v5.jpeg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\dlebfoez.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\dlebfoez.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\if3ojkyl.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\if3ojkyl.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\k0kbbp3x.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\k0kbbp3x.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\ki5mevce.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\ki5mevce.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\mgf0m31i.jpeg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\mgf0m31i.jpeg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\omhwlasm.jpeg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\omhwlasm.jpeg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\rawoj344.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\rawoj344.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\avatar\\xg0zbkko.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\avatar\\xg0zbkko.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\background\\qkvgfkst.jpeg",
+      "PackagePath": "staticwebassets\\fileupload\\background\\qkvgfkst.jpeg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\background\\r2u4hooe.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\background\\r2u4hooe.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\background\\u4nmles0.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\background\\u4nmles0.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\background\\xh4nltw4.jpg",
+      "PackagePath": "staticwebassets\\fileupload\\background\\xh4nltw4.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\fileupload\\background\\xvl0alsg.jpeg",
+      "PackagePath": "staticwebassets\\fileupload\\background\\xvl0alsg.jpeg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\css\\main.bfb34668.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.bfb34668.css"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\css\\main.bfb34668.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.bfb34668.css.map"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\js\\787.de947969.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\787.de947969.chunk.js"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\js\\787.de947969.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\787.de947969.chunk.js.map"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\js\\main.f5c7ac0c.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.f5c7ac0c.js"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\js\\main.f5c7ac0c.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.f5c7ac0c.js.LICENSE.txt"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\js\\main.f5c7ac0c.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.f5c7ac0c.js.map"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-Bold.4b81cb34e4ecc6587fb2.woff",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-Bold.4b81cb34e4ecc6587fb2.woff"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-Bold.b30984dd2b4848c53f13.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-Bold.b30984dd2b4848c53f13.woff2"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-Light.5e564694e1afbac24753.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-Light.5e564694e1afbac24753.woff2"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-Light.c42349d25bd460f6c2c2.woff",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-Light.c42349d25bd460f6c2c2.woff"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-Regular.01c335c1988dc3cb0ac9.woff",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-Regular.01c335c1988dc3cb0ac9.woff"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-Regular.933fddb7dad9bd1d6a00.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-Regular.933fddb7dad9bd1d6a00.woff2"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-SemiBold.d6194166a14808a44564.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-SemiBold.d6194166a14808a44564.woff2"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\CerebriSansPro-SemiBold.f32f60008f08b218b5c6.woff",
+      "PackagePath": "staticwebassets\\static\\media\\CerebriSansPro-SemiBold.f32f60008f08b218b5c6.woff"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\black-woman-hold-sign.9302755e73810f6c27d2.png",
+      "PackagePath": "staticwebassets\\static\\media\\black-woman-hold-sign.9302755e73810f6c27d2.png"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\img-4.8111c4656c8bc3b62569.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\img-4.8111c4656c8bc3b62569.jpg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\slick.2630a3e3eab21c607e21.svg",
+      "PackagePath": "staticwebassets\\static\\media\\slick.2630a3e3eab21c607e21.svg"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\slick.295183786cd8a1389865.woff",
+      "PackagePath": "staticwebassets\\static\\media\\slick.295183786cd8a1389865.woff"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\slick.a4e97f5a2a64f0ab1323.eot",
+      "PackagePath": "staticwebassets\\static\\media\\slick.a4e97f5a2a64f0ab1323.eot"
+    },
+    {
+      "Id": "A:\\ProJE35\\BackEnd\\QuicklyGoBe\\QuicklyGo\\wwwroot\\static\\media\\slick.c94f7671dcc99dce43e2.ttf",
+      "PackagePath": "staticwebassets\\static\\media\\slick.c94f7671dcc99dce43e2.ttf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.QuicklyGo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.QuicklyGo.props",
+      "PackagePath": "build\\QuicklyGo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.QuicklyGo.props",
+      "PackagePath": "buildMultiTargeting\\QuicklyGo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.QuicklyGo.props",
+      "PackagePath": "buildTransitive\\QuicklyGo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

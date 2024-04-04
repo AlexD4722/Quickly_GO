@@ -1,0 +1,56 @@
+@import "./index.scss";
+.menu-mobile__header-btn-close {
+  height: 2rem;
+  width: 2rem;
+  color: #000;
+}
+.menu-mobile__header-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.01em;
+  color: #000;
+  transition: 0.3s;
+  text-transform: capitalize;
+  padding: 2rem 0;
+  position: relative;
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 1px;
+    opacity: 1;
+    z-index: 1000000000;
+    transition: all 0.3s ease;
+    background-color: $color-primary;
+  }
+}
+.menu-mobile__item{
+  position: relative;;
+}
+.menu-mobile__item-text {
+  width: 100%;
+  text-align: start;
+  font-family: "DM Sans", sans-serif;
+  display: block;
+  padding: 1.5rem 0;
+  font-size: 1.4rem;
+  border-bottom: 1px solid;
+  border-bottom-color: $color-border;
+  color: $color-accent;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.menu-mobile__item-extend-title{
+  font-size: 14px;
+    text-transform: unset;
+    padding: 2px 0 2px 13px;
+    border-bottom: none;
+    line-height: 24px;
+    color: $color-text;
+}

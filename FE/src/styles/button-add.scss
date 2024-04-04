@@ -1,0 +1,45 @@
+@import "./index.scss";
+.btn-add__box {
+  transition: 1s;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #4eac6d1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 3px;
+  transition: 0.3s;
+  &::after {
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    width: 7px;
+    height: 1.55px;
+    background-color: #4eac6d;
+  }
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    content: "";
+    width: 1.6px;
+    height: 7px;
+    background-color: #4eac6d;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: #4eac6d;
+    &::after,
+    &::before {
+      transition: 0.3s;
+      background-color: #fff;
+    }
+  }
+}

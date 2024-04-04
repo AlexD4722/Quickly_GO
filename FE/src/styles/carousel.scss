@@ -1,0 +1,30 @@
+@import "./index.scss";
+.carousel__item {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #83716A;
+  &::before {
+    padding-bottom: 50%;
+    content: "";
+    display: block;
+  }
+}
+.carousel__item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  bottom: 0;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: contain;
+}
+.carousel__wrapper {
+  position: relative;
+  width: 100%;
+}

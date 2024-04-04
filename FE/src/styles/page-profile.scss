@@ -1,0 +1,211 @@
+@import "./index.scss";
+.page-profile {
+  @media (min-width: 992px) {
+    min-width: 300px;
+    max-width: 300px;
+    height: 100vh;
+    margin-left: 7.4rem;
+  }
+  @media (max-width: 991px) {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0rem;
+  }
+  background-color: var(--bs-sidebar-sub-bg);
+  box-shadow: 0 2px 4px #0f223a1f;
+  position: fixed;
+}
+.page-profile__img-background {
+  position: relative;
+}
+.page-profile__header {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #00000080 10%, #0000 60%, #00000080);
+  height: 100%;
+  color: #fff9;
+}
+.page-profile__header {
+  padding: 1.55rem 1.6rem;
+}
+.page-profile__title {
+  h5 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    text-transform: capitalize;
+    color: rgba(var(--bs-white-rgb)) !important;
+  }
+}
+.page-profile__img-background-detail {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.page-profile__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-profile__btn-dropdown {
+  cursor: pointer;
+  svg {
+    color: var(--bs-white);
+  }
+}
+.page-profile__btn-dropdown-wrapper {
+  cursor: pointer;
+}
+.page-profile__btn-edit-info {
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+  border-radius: 50%;
+  svg {
+    color: #7d7c7c;
+    cursor: pointer;
+  }
+}
+.page-profile__body {
+  margin-top: -3rem;
+  position: relative;
+  z-index: 10;
+}
+.page-profile__img-avatar {
+  position: relative;
+  margin: 0 auto;
+  width: 8rem;
+  height: 8rem;
+  img {
+    padding: 0.45rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--bs-body-bg);
+  }
+}
+.page-profile__btn-edit-avatar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+  border-radius: 50%;
+  svg {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+.page-profile__user-name {
+  margin: 1.6rem 0;
+  text-align: center;
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--bs-heading-color);
+  }
+}
+.page-profile__img-avatar-wrapper {
+  border-bottom: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color);
+}
+.page-profile__info-user-wrapper {
+  overflow: scroll;
+  padding: 2.4rem;
+  height: 100vh;
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #7d7c7c;
+    border-radius: 20px;
+  }
+}
+.page-profile__info-use-description {
+  margin-bottom: 2rem;
+  h5 {
+    color: var(--bs-secondary-color);
+    font-size: 1.5rem;
+    line-height: revert;
+  }
+}
+.page-profile__info-use-flex {
+  display: flex;
+  padding: 0.8rem 0;
+}
+.page-profile__info-value {
+  margin-left: 1rem;
+  p {
+    margin-top: 3px;
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+}
+.page-profile__collapse-header-name {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.8rem;
+  h3 {
+    margin-top: 0.3rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+}
+.page-profile__collapse-name-icon {
+  svg {
+    color: #7d7c7c;
+  }
+}
+.page-profile__accordion-body {
+  position: relative;
+  padding: 1.5rem;
+}
+.page-profile__accordion-body-item {
+  margin-top: 1.3rem;
+  &:first-child {
+    margin-top: 0;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+  h5 {
+    font-size: 1.5rem;
+    line-height: normal;
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+}
+.page-profile__accordion-btn-edit-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.page-profile__edit-input {
+  margin: 1rem 0 0 0;
+  label {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+.page-profile__input-detail--text-area {
+  min-height: 3rem;
+  &:focus {
+    border-color: var(--bs-primary) !important;
+    outline: none !important;
+  }
+}
+.page-profile__input-detail {
+  width: 100%;
+  border: 1px solid rgb(209, 213, 219);
+  font-size: 1.5rem;
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+  margin: 0.3rem 0 0 0;
+  &:focus {
+    border-color: var(--bs-black) !important;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bfb34668.css",
+    "main.js": "/static/js/main.f5c7ac0c.js",
+    "static/js/787.de947969.chunk.js": "/static/js/787.de947969.chunk.js",
+    "static/media/img-4.jpg": "/static/media/img-4.8111c4656c8bc3b62569.jpg",
+    "static/media/black-woman-hold-sign.png": "/static/media/black-woman-hold-sign.9302755e73810f6c27d2.png",
+    "static/media/CerebriSansPro-Light.woff": "/static/media/CerebriSansPro-Light.c42349d25bd460f6c2c2.woff",
+    "static/media/CerebriSansPro-Bold.woff": "/static/media/CerebriSansPro-Bold.4b81cb34e4ecc6587fb2.woff",
+    "static/media/CerebriSansPro-Light.woff2": "/static/media/CerebriSansPro-Light.5e564694e1afbac24753.woff2",
+    "static/media/CerebriSansPro-Bold.woff2": "/static/media/CerebriSansPro-Bold.b30984dd2b4848c53f13.woff2",
+    "static/media/CerebriSansPro-SemiBold.woff": "/static/media/CerebriSansPro-SemiBold.f32f60008f08b218b5c6.woff",
+    "static/media/CerebriSansPro-Regular.woff": "/static/media/CerebriSansPro-Regular.01c335c1988dc3cb0ac9.woff",
+    "static/media/CerebriSansPro-SemiBold.woff2": "/static/media/CerebriSansPro-SemiBold.d6194166a14808a44564.woff2",
+    "static/media/CerebriSansPro-Regular.woff2": "/static/media/CerebriSansPro-Regular.933fddb7dad9bd1d6a00.woff2",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.bfb34668.css.map": "/static/css/main.bfb34668.css.map",
+    "main.f5c7ac0c.js.map": "/static/js/main.f5c7ac0c.js.map",
+    "787.de947969.chunk.js.map": "/static/js/787.de947969.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfb34668.css",
+    "static/js/main.f5c7ac0c.js"
+  ]
+}
